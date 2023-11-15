@@ -1,6 +1,19 @@
-#intro{
-    border: 1px;
-height:  calc(100vh - 4rem);
-width: 75rem;
+#intro {
+  border: 1px solid gray;
+  height: calc(100vh - 4rem);
+  width: 75rem;
+}
+.bg{
+    position: absolute;
+    top: -4rem;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+}
 
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
 }
